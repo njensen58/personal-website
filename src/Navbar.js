@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import Fabars from 'react-icons/lib/fa/bars'
+import Faminus from 'react-icons/lib/fa/minus';
 
 function Navbar(props){
     const navStyle = {
@@ -16,9 +17,9 @@ function Navbar(props){
                  className="sandwhichMenu"
                  onClick={props.handleNavExpand}>
                  { props.info.nav ?
-                     <i className="ion-minus-round"></i>
+                     <i><Faminus /></i>
                  :
-                    <i className="ion-navicon"></i>
+                    <i><Fabars /></i>
                  }
                 </div>
                 <div onClick={props.handleNavExpand}>
