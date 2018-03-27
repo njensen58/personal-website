@@ -1,5 +1,8 @@
 import React from 'react';
-
+import Fainsta from 'react-icons/lib/fa/instagram';
+import Falink from 'react-icons/lib/fa/linkedin-square';
+import Fagoog from 'react-icons/lib/fa/google-plus-square';
+import Fagithub from 'react-icons/lib/fa/github-square';
 
 
 class Home extends React.Component {
@@ -81,26 +84,22 @@ class Home extends React.Component {
                                     <div className="iconsDiv">
                                         <li>
                                             <a
-                                                href="https://github.com/njensen58"><i
-                                                className="ion-social-github icons gitIcon"></i>
+                                                href="https://github.com/njensen58"><i className="gitIcon icons"><Fagithub/></i>
                                             </a>
                                         </li>
                                         <li>
                                             <a
-                                                href="https://linkedin.com/in/natej58"><i
-                                                className="ion-social-linkedin icons linkIcon"></i>
+                                                href="https://linkedin.com/in/natej58"><i className="icons linkIcon"><Falink /></i>
                                             </a>
                                         </li>
                                         <li>
                                             <a
-                                                href="https://google.com/+NathanJensen"><i
-                                                className="ion-social-googleplus icons googIcon"></i>
+                                                href="https://google.com/+NathanJensen"><i className="icons googIcon"><Fagoog /></i>
                                             </a>
                                         </li>
                                         <li>
                                             <a
-                                                href="https://www.instagram.com/nate.sj"><i
-                                                className="ion-social-instagram-outline icons instaIcon"></i>
+                                                href="https://www.instagram.com/nate.sj"><i className="icons instaIcon"><Fainsta /></i>
                                             </a>
                                         </li>
                                     </div>
