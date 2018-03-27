@@ -1,4 +1,6 @@
 import React from 'react';
+import Faup from 'react-icons/lib/fa/angle-up';
+import Fadown from 'react-icons/lib/fa/angle-down';
 
 class Project extends React.Component {
     constructor(){
@@ -27,9 +29,9 @@ class Project extends React.Component {
                     <button
                         >
                         { this.state.dropDown === false ?
-                        <i className="ion-chevron-down"></i>
+                        <i><Faup /></i>
                         :
-                        <i className="ion-chevron-up"></i>
+                        <i><Fadown /></i>
                         }
                     </button>{this.props.title}
                 </h3>
