@@ -44,7 +44,7 @@ class Project extends React.Component {
                         {this.props.imgs.map(image => <button onClick={()=>this.handleImgOpen(image)}><img src={image} alt=""/></button>)}
                     </div>
                     <div className="projectUrlBtnDiv">
-                        <a href={this.props.url}>Visit Project</a>
+                        <a href={this.props.url} target="_blank">Visit Project</a>
                     </div>
                 </div>
                 }
