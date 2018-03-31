@@ -61,6 +61,7 @@ class Home extends React.Component {
                                     <li>Node JS</li>
                                     <li>React/Redux</li>
                                     <li>HTML/CSS</li>
+                                    <li>Git</li>
                                     <li>JSON</li>
                                     <li>Lodash</li>
                                 </ul>
@@ -71,6 +72,7 @@ class Home extends React.Component {
                                     <li>Express</li>
                                     <li>Mongoose/MongoDB</li>
                                     <li>Jquery</li>
+                                    <li>Token Auth</li>
                                     <li>Photoshop</li>
                                     <li>Illustrator</li>
                                 </ul>
