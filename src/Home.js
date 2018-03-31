@@ -44,8 +44,9 @@ class Home extends React.Component {
                             </div>
                             <div className="homeFullContainer">
                                 <p>
-                                    I have always loved to make things.
-                                    I left a career in finance to pursue a creative career in web development and programming.
+                                    My driving force is a passion for learning new things. This passion has driven me from a young age to constantly be learning or developing a skill. Music has been a big part of my life, and other subjects or things I have studied are drawing/painting, french, 3D graphic programs, and computer programming.
+
+                                    I have found that computer programming is in the same vein of all those other creative endeavors I love. I am very excited about what my future in the tech industry holds and the impact I have the chance to make.
                                 </p>
                             </div>
                             <div className="projectsBtnDiv">
