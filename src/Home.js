@@ -59,7 +59,7 @@ class Home extends React.Component {
                                 <ul>
                                     <li>JavaScript</li>
                                     <li>Node JS</li>
-                                    <li>React/Redux</li>
+                                    <li>Redux</li>
                                     <li>HTML/CSS</li>
                                     <li>Git</li>
                                     <li>JSON</li>
@@ -68,7 +68,7 @@ class Home extends React.Component {
                             </div>
                             <div className="homeSkillsRight">
                                 <ul>
-                                    <li>Git</li>
+                                    <li>React</li>
                                     <li>Express</li>
                                     <li>Mongoose/MongoDB</li>
                                     <li>Jquery</li>
